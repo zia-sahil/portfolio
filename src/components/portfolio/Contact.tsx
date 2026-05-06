@@ -16,24 +16,24 @@ export const Contact = () => (
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="mailto:ahmad.zia.sahil@example.com"
+            href="mailto:ah.ziasahil@gmail.com"
             className="group flex items-center gap-3 px-6 py-4 rounded-2xl border border-border bg-background/50 backdrop-blur hover:border-primary/50 transition-all w-full sm:w-auto"
           >
             <Mail className="w-5 h-5 text-primary" />
             <div className="text-left">
               <p className="text-xs text-muted-foreground">Email</p>
-              <p className="font-medium">ahmad.zia.sahil@example.com</p>
+              <p className="font-medium">ah.ziasahil@gmail.com</p>
             </div>
             <ArrowUpRight className="w-4 h-4 text-muted-foreground group-hover:text-primary transition-colors" />
           </a>
           <a
-            href="tel:+93700000000"
+            href="tel:+93782494917"
             className="group flex items-center gap-3 px-6 py-4 rounded-2xl border border-border bg-background/50 backdrop-blur hover:border-primary/50 transition-all w-full sm:w-auto"
           >
             <Phone className="w-5 h-5 text-primary" />
             <div className="text-left">
               <p className="text-xs text-muted-foreground">Phone</p>
-              <p className="font-medium">+93 700 000 000</p>
+              <p className="font-medium">+93 782 494 917</p>
             </div>
             <ArrowUpRight className="w-4 h-4 text-muted-foreground group-hover:text-primary transition-colors" />
           </a>

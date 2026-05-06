@@ -69,7 +69,7 @@ export const Hero = () => {
         </div>
 
         <div className="flex items-center justify-center gap-6 mt-12 animate-fade-in" style={{ animationDelay: "0.6s", opacity: 0 }}>
-          <a href="mailto:ahmad.zia.sahil@example.com" className="text-muted-foreground hover:text-primary transition-colors">
+          <a href="mailto:ah.ziasahil@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
             <Mail className="w-5 h-5" />
           </a>
           <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
