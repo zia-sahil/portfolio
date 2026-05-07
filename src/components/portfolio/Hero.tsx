@@ -1,4 +1,4 @@
-import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowRight, Download, Github, Linkedin, Mail } from "lucide-react";
 
 export const Hero = () => {
   return (
@@ -48,23 +48,32 @@ export const Hero = () => {
           className="max-w-2xl mx-auto text-muted-foreground leading-relaxed mb-10 animate-fade-in"
           style={{ animationDelay: "0.4s", opacity: 0 }}
         >
-          I craft performant, accessible and beautifully detailed web applications —
-          turning ideas into modern digital experiences using React, TypeScript and Node.js.
+          Passionate Full Stack Developer with experience in building modern,
+          responsive, and user-friendly web applications using modern front-end and
+          back-end technologies.
         </p>
 
-        <div className="flex flex-wrap items-center justify-center gap-4 animate-fade-in" style={{ animationDelay: "0.5s", opacity: 0 }}>
+        <div className="flex flex-wrap items-center justify-center gap-3 animate-fade-in" style={{ animationDelay: "0.5s", opacity: 0 }}>
           <a
             href="#projects"
             className="group inline-flex items-center gap-2 px-6 py-3 rounded-full bg-primary text-primary-foreground font-medium hover:shadow-[var(--shadow-glow)] transition-all"
           >
-            View My Work
+            View Projects
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </a>
           <a
             href="#contact"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-border text-foreground hover:border-primary/50 hover:bg-card transition-all"
           >
-            Get in Touch
+            Contact Me
+          </a>
+          <a
+            href="/Ahmad_Zia_Sahil_CV.pdf"
+            download
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-primary/40 bg-primary/5 text-foreground hover:bg-primary/10 hover:border-primary transition-all"
+          >
+            <Download className="w-4 h-4" />
+            Download CV
           </a>
         </div>
 
@@ -72,7 +81,7 @@ export const Hero = () => {
           <a href="mailto:ah.ziasahil@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
             <Mail className="w-5 h-5" />
           </a>
-          <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+          <a href="https://github.com/zia-sahil" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
             <Github className="w-5 h-5" />
           </a>
           <a href="#" className="text-muted-foreground hover:text-primary transition-colors">

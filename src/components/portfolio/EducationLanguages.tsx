@@ -17,6 +17,7 @@ export const EducationLanguages = () => (
         <p className="font-mono text-xs text-muted-foreground mb-2">EDUCATION</p>
         <h3 className="font-display font-bold text-2xl mb-2">Bachelor of Computer Science</h3>
         <p className="text-muted-foreground">Kabul University</p>
+        <p className="text-sm text-muted-foreground mt-1">Information Systems</p>
       </div>
 
       <div className="glow-card rounded-2xl p-8">
